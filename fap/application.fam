@@ -1,0 +1,17 @@
+App(
+    appid="lldp_sniffer",
+    name="LLDP Sniffer",
+    apptype=FlipperAppType.EXTERNAL,
+    targets=["f7"],
+    entry_point="lldp_sniffer_main",
+    requires=[
+        "gui",
+        "storage",
+    ],
+    stack_size=1 * 1024,
+    fap_icon="mfkey.png",
+    fap_category="GPIO",
+    fap_author="Shimon Goldner",
+    fap_icon_assets="images",
+    fap_weburl="https://github.com/S-goldner/lldp_sniffer",
+)
