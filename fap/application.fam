@@ -9,7 +9,7 @@ App(
         "storage",
     ],
     stack_size=1 * 1024,
-    fap_icon="mfkey.png",
+    fap_icon="LLDP.png",
     fap_category="GPIO",
     fap_author="Shimon Goldner",
     fap_icon_assets="images",
